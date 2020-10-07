@@ -1,0 +1,78 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Title</title>
+
+		<link rel="stylesheet" type="text/css" href="{% static 'css/fullpage.min.css' %}">
+<!--		<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">-->
+
+		<!--引入自己的css-->
+		<link rel="stylesheet" type="text/css" href="{% static 'css/mypagelist.css' %}">
+		<link rel="stylesheet" type="text/css" href="{% static 'css/mypagelist1.css' %}">
+		<link rel="stylesheet" type="text/css" href="{% static 'css/mypagelist2.css' %}">
+		<link rel="stylesheet" type="text/css" href="{% static 'css/mypagelist3.css' %}">
+		<link rel="stylesheet" type="text/css" href="{% static 'css/mypagelist4.css' %}">
+
+
+		<!--引入jquery再引入fullpage-->
+		<script type="text/javascript" src="{% static 'js/jquery-3.5.1.min.js' %}"></script>
+		<script type="text/javascript" src="{% static 'js/fullpage.js' %}"></script>
+
+		<!--引入自己的js-->
+		<script type="text/javascript" src="{% static 'js/mypagelist.js' %}"></script>
+		
+	</head>
+
+	<body>
+
+		<ul id="myMenu">
+			<li data-menuanchor="homepage" class="menuList"><a href="#homepage">首頁</a></li>
+			<li data-menuanchor="page1"class="menuList"><a href="#page1">About Me</a></li>
+			<li data-menuanchor="page2" class="menuList"><a href="#page2">頁2</a></li>
+			<li data-menuanchor="page3" class="menuList"><a href="#page3">頁3</a></li>
+			<li data-menuanchor="page4"class="menuList"><a href="#page4">頁4</a></li>
+		</ul>
+
+
+		<div id="fullpage">
+
+			<div class="section section1">
+				<div id="s1_background"></div>
+				<div id="title_text">Hi I am David<br>
+					<p id="title_size">跟著時間奔馳的小夥子</p>
+				</div>
+				<a href="https://github.com/comet-602" ><img src="{% static 'img/github.png' %}" alt="" class="pic"></a>
+			</div>
+
+			<div class="section section2">
+				
+			</div>
+
+			<div class="section section3">
+				
+			</div>
+
+
+			<div class="section section4">
+				
+			</div>
+
+			<div class="section section5">
+				
+			</div>
+
+		</div>
+
+		<div id="top_background"></div>
+
+	</body>
+</html>
+
+<script type="text/javascript" src="{% static 'js/mypagelist1.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/mypagelist2.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/mypagelist3.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/mypagelist4.js' %}"></script>
+
+
