@@ -12,8 +12,6 @@
 		<link rel="stylesheet" type="text/css" href="{% static 'css/mypagelist.css' %}">
 		<link rel="stylesheet" type="text/css" href="{% static 'css/mypagelist1.css' %}">
 		<link rel="stylesheet" type="text/css" href="{% static 'css/mypagelist2.css' %}">
-		<link rel="stylesheet" type="text/css" href="{% static 'css/mypagelist3.css' %}">
-		<link rel="stylesheet" type="text/css" href="{% static 'css/mypagelist4.css' %}">
 
 
 		<!--引入jquery再引入fullpage-->
@@ -30,9 +28,6 @@
 		<ul id="myMenu">
 			<li data-menuanchor="homepage" class="menuList"><a href="#homepage">首頁</a></li>
 			<li data-menuanchor="page1"class="menuList"><a href="#page1">About Me</a></li>
-			<li data-menuanchor="page2" class="menuList"><a href="#page2">頁2</a></li>
-			<li data-menuanchor="page3" class="menuList"><a href="#page3">頁3</a></li>
-			<li data-menuanchor="page4"class="menuList"><a href="#page4">頁4</a></li>
 		</ul>
 
 
@@ -40,28 +35,25 @@
 
 			<div class="section section1">
 				<div id="s1_background"></div>
-				<div id="title_text">Hi I am David<br>
-					<p id="title_size">跟著時間奔馳的小夥子</p>
+				<div id="title_text">Hi I am David'computer<br>
+					<p id="title_size">更多資訊請洽下一頁</p>
 				</div>
 				<a href="https://github.com/comet-602" ><img src="{% static 'img/github.png' %}" alt="" class="pic"></a>
 			</div>
 
 			<div class="section section2">
-				
+				<div id="s2_box1"></div>
+				<div id="s2_box2"></div>
+				<div id="s2_box3"></div>
+				<div id="s2_box4"></div>
+				<div id="s2_box5"></div>
+				<button type="button" id='s2_btn1_id'>CPU</button>
+				<button type="button" id='s2_btn2_id'>DISK</button>
+				<button type="button" id='s2_btn3_id'>IP</button>
+				<button type="button" id='s2_btn4_id'>SYSTEM</button>
+				<button type="button" id='s2_clean'>清除</button>
 			</div>
 
-			<div class="section section3">
-				
-			</div>
-
-
-			<div class="section section4">
-				
-			</div>
-
-			<div class="section section5">
-				
-			</div>
 
 		</div>
 
@@ -72,7 +64,5 @@
 
 <script type="text/javascript" src="{% static 'js/mypagelist1.js' %}"></script>
 <script type="text/javascript" src="{% static 'js/mypagelist2.js' %}"></script>
-<script type="text/javascript" src="{% static 'js/mypagelist3.js' %}"></script>
-<script type="text/javascript" src="{% static 'js/mypagelist4.js' %}"></script>
 
 
