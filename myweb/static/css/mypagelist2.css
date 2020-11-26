@@ -1,0 +1,124 @@
+#s2_box1 {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    width: 30%;
+    height: 15%;
+    border-width: 2px;
+    border-style: solid;
+    background-color: white;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    padding-left:15px;
+  }
+
+#s2_box2 {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  width: 30%;
+  height: 15%;
+  border-width: 2px;
+  border-style: solid;
+  background-color: white;
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  padding-left:15px;
+}
+
+#s2_box3 {
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  width: 30%;
+  height: 15%;
+  border-width: 2px;
+  border-style: solid;
+  background-color: white;
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  padding-left:15px;
+}
+
+#s2_box4 {
+  position: absolute;
+  top: 75%;
+  left: 20%;
+  width: 30%;
+  height: 15%;
+  border-width: 2px;
+  border-style: solid;
+  background-color: white;
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  padding-left:15px;
+}
+
+#s2_box5 {
+  position: absolute;
+  top: 15%;
+  left: 55%;
+  width: 20%;
+  height: 15%;
+  border-width: 2px;
+  border-style: solid;
+  background-color: white;
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  padding-left:15px;
+}
+
+#s2_btn1_id {
+  position: absolute;
+  top: 15%;
+  left: 8%;
+  width: 10%;
+  height: 15%;
+  border-radius: 1em;
+  z-index: 3;
+}
+
+#s2_btn2_id {
+  position: absolute;
+  top: 35%;
+  left: 8%;
+  width: 10%;
+  height: 15%;
+  border-radius: 1em;
+  z-index: 3;
+}
+
+#s2_btn3_id {
+  position: absolute;
+  top: 55%;
+  left: 8%;
+  width: 10%;
+  height: 15%;
+  border-radius: 1em;
+  z-index: 3;
+}
+
+#s2_btn4_id {
+  position: absolute;
+  top: 75%;
+  left: 8%;
+  width: 10%;
+  height: 15%;
+  border-radius: 1em;
+  z-index: 3;
+}
+
+#s2_clean {
+  position: absolute;
+  top: 15%;
+  right: 8%;
+  width: 10%;
+  height: 15%;
+  border-radius: 1em;
+  z-index: 3;
+}

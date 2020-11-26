@@ -6,9 +6,9 @@ import requests
 from myweb import settings
 from django.views.generic import View
 
-import wmi
-import win32com
-import pythoncom
+# import wmi
+# import win32com
+# import pythoncom
 
 def pagelist(request):
     temp={}

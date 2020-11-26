@@ -12,11 +12,12 @@
 		<link rel="stylesheet" type="text/css" href="{% static 'css/mypagelist.css' %}">
 		<link rel="stylesheet" type="text/css" href="{% static 'css/mypagelist1.css' %}">
 		<link rel="stylesheet" type="text/css" href="{% static 'css/mypagelist2.css' %}">
-
+		<link rel="stylesheet" type="text/css" href="{% static 'css/mypagelist3.css' %}">
 
 		<!--引入jquery再引入fullpage-->
 		<script type="text/javascript" src="{% static 'js/jquery-3.5.1.min.js' %}"></script>
 		<script type="text/javascript" src="{% static 'js/fullpage.js' %}"></script>
+		<script type="text/javascript" src="{% static 'js/ua-parser.js' %}"></script>
 
 		<!--引入自己的js-->
 		<script type="text/javascript" src="{% static 'js/mypagelist.js' %}"></script>
@@ -27,7 +28,8 @@
 
 		<ul id="myMenu">
 			<li data-menuanchor="homepage" class="menuList"><a href="#homepage">首頁</a></li>
-			<li data-menuanchor="page1"class="menuList"><a href="#page1">About Me</a></li>
+			<li data-menuanchor="page1"class="menuList"><a href="#page1">About me</a></li>
+			<!-- <li data-menuanchor="page2"class="menuList"><a href="#page2">About JS</a></li> -->
 		</ul>
 
 
@@ -41,7 +43,7 @@
 				<a href="https://github.com/comet-602" ><img src="{% static 'img/github.png' %}" alt="" class="pic"></a>
 			</div>
 
-			<div class="section section2">
+			<!-- <div class="section section2">
 				<div id="s2_box1"></div>
 				<div id="s2_box2"></div>
 				<div id="s2_box3"></div>
@@ -52,8 +54,20 @@
 				<button type="button" id='s2_btn3_id'>IP</button>
 				<button type="button" id='s2_btn4_id'>SYSTEM</button>
 				<button type="button" id='s2_clean'>清除</button>
-			</div>
+			</div> -->
 
+			<div class="section section2">
+				<div id="s3_box1"></div>
+				<div id="s3_box2"></div>
+				<div id="s3_box3"></div>
+				<div id="s3_box4"></div>
+				<div id="s3_box5">清除畫面請按右方按鍵 ➜ </div>
+				<button type="button" id='s3_btn1_id'>CPU</button>
+				<button type="button" id='s3_btn2_id'>瀏覽器</button>
+				<button type="button" id='s3_btn3_id'>IP</button>
+				<button type="button" id='s3_btn4_id'>SYSTEM</button>
+				<button type="button" id='s3_clean'>清除</button>
+			</div>
 
 		</div>
 
@@ -64,5 +78,5 @@
 
 <script type="text/javascript" src="{% static 'js/mypagelist1.js' %}"></script>
 <script type="text/javascript" src="{% static 'js/mypagelist2.js' %}"></script>
-
+<script type="text/javascript" src="{% static 'js/mypagelist3.js' %}"></script>
 
