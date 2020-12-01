@@ -9,7 +9,8 @@
 GCP建立APP Engine
 1. 下載Cloud SDK
 2. 初始化 gcloud init
-3. 部署 gcloud app deploy
+3. 運行 python manage.py collectstatic 自動把各App下面的静態文件给複製到STATIC_ROOT
+4. 部署 gcloud app deploy
 
 ------
 https://myweb-296805.df.r.appspot.com/
